@@ -13,15 +13,15 @@ body{
     display: block !important;
     width: 355px;
     height: 95vh;
-    border-radius: 1rem !important;
+    border-radius: 1.75rem !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
 }
 .mobile-card-view{
     margin-left: auto !important;
     margin-right: auto !important;
     display: block !important;
-    height: 88vh;
-    border-radius: .55rem !important;
+    height: 87vh;
+    border-radius: .8rem !important;
 }
 
 /* Utilities */
@@ -59,6 +59,6 @@ body{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-h1{
+/* h1{
     font-size: 30px !important;
-}
+} */

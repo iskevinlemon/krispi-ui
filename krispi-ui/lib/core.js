@@ -52,8 +52,8 @@
         <div class="card-body mobile-card-view bg-white">
             ${componentView}
         </div>
-        <div class="text-center mt-1">
-            <i class="text-white fas fa-house"></i>
+        <div class="text-center mt-2">
+          <i class="text-white far fa-circle"></i>
         </div>
     </div>
     `;

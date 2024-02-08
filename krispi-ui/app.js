@@ -3,20 +3,22 @@
 var count = 0;
 
 Component(
-    H1({
+    Text({
         Id: "",
         Text: "Counter app",
         Position: CENTER,
-        MarginTop: "50px"
+        MarginTop: "50px",
+        FontSize: "20px"
     })
 );
 
 Component(
-    H1({
+    Text({
         Id: "my-text",
         Text: count,
         Position: CENTER,
-        MarginTop: "120px"
+        MarginTop: "120px",
+        FontSize: "30px"
     })
 );
 
@@ -26,13 +28,14 @@ Component(
         Background: Color.Blue,
         Color: "#fff",
         Position: CENTER,
-        Click: Function("addCount")
+        Click: Function("addCount"),
     })
 );
 
 function addCount(){
     count++;
     locate("#my-text").html(count);
+    console.log(`Count is ${count}`);
 }
 
 DisplayScreen();
