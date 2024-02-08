@@ -1,0 +1,64 @@
+body{
+    overflow-y: hidden;
+}
+
+.bg-dark{
+    background-color: #282E36 !important;
+}
+
+/* Mobile view */
+.mobile-card-border{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    width: 355px;
+    height: 95vh;
+    border-radius: 1rem !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.mobile-card-view{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    height: 88vh;
+    border-radius: .55rem !important;
+}
+
+/* Utilities */
+.k-center{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+/* This to be fixed */
+.k-left{
+    float: left !important;
+}
+.k-right{
+    float: right !important;
+}
+
+/* Button */
+.krispi-btn{
+    border: none;
+    padding: .55rem 1.05rem;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: .375rem !important;
+}
+.krispi-btn:hover{
+    opacity: 0.9 !important;
+}
+
+/* Card */
+.k-card{
+    border-radius: .375rem !important;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+h1{
+    font-size: 30px !important;
+}
